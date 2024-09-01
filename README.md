@@ -14,10 +14,14 @@ This script requires Python 3 and the re (regular expressions) module, which is 
 
 # Usage
 Clone the Repository:
-git clone https://github.com/yourusername/password-strength-checker.git
+
+git clone https://github.com/yourusername/password-strength-checker.git.
+
 cd password-strength-checker
 
+
 Run the Script:
+
 python password_strength_checker.py
 
 Input Parameters:
