@@ -2,6 +2,7 @@
 This repository contains a Python script that evaluates the strength of a password based on multiple criteria. The script provides feedback on whether the password meets these criteria and rates its overall strength.
 
 # Features
+
 Password Length Check: Ensures the password has a minimum length of 8 characters.
 Uppercase Letter Check: Verifies the presence of at least one uppercase letter.
 Lowercase Letter Check: Verifies the presence of at least one lowercase letter.
@@ -25,7 +26,9 @@ Run the Script:
 python password_strength_checker.py
 
 Input Parameters:
+
 The script will prompt you to enter a password to check its strength.
+
 Enter a password to check its strength: YourPassword123!
 
 # Example Output:
@@ -42,7 +45,9 @@ Strength: Strong
 #How It Works
 Criteria Evaluation:
 The script checks the password against five criteria:
+
 Length: The password must be at least 8 characters long.
+
 Uppercase: The password must contain at least one uppercase letter.
 Lowercase: The password must contain at least one lowercase letter.
 Digit: The password must contain at least one numeric digit.
