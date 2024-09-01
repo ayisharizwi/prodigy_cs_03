@@ -21,9 +21,11 @@ git clone https://github.com/yourusername/password-strength-checker.git.
 cd password-strength-checker
 
 
+
 Run the Script:
 
 python password_strength_checker.py
+
 
 Input Parameters:
 
@@ -55,7 +57,7 @@ Digit: The password must contain at least one numeric digit.
 
 Special Character: The password must contain at least one special character.
 
-Strength Calculation:
+# Strength Calculation:
 
 The script sums the number of criteria met by the password.
 
