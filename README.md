@@ -1,42 +1,33 @@
 # prodigy_cs_03
-Password Strength Checker
+# Password Strength Checker
 This repository contains a Python script that evaluates the strength of a password based on multiple criteria. The script provides feedback on whether the password meets these criteria and rates its overall strength.
 
-Features
+# Features
 Password Length Check: Ensures the password has a minimum length of 8 characters.
 Uppercase Letter Check: Verifies the presence of at least one uppercase letter.
 Lowercase Letter Check: Verifies the presence of at least one lowercase letter.
 Digit Check: Checks if the password contains at least one numeric digit.
 Special Character Check: Ensures the password includes at least one special character (e.g., !@#$%^&*()).
 Strength Rating: Rates the password as Very Weak, Weak, Moderate, or Strong based on the number of criteria met.
-Installation
+
+# Installation
 This script requires Python 3 and the re (regular expressions) module, which is included in the Python standard library.
 
-Usage
+# Usage
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/yourusername/password-strength-checker.git
 cd password-strength-checker
+
 Run the Script:
-
-bash
-Copy code
 python password_strength_checker.py
+
 Input Parameters:
-
 The script will prompt you to enter a password to check its strength.
-
-bash
-Copy code
 Enter a password to check its strength: YourPassword123!
-Example Output:
+
+# Example Output:
 
 The script will evaluate the password and provide detailed feedback:
-
-yaml
-Copy code
 Password Strength Feedback:
 Length Criteria Met: Yes
 Uppercase Criteria Met: Yes
@@ -44,9 +35,9 @@ Lowercase Criteria Met: Yes
 Digit Criteria Met: Yes
 Special Character Criteria Met: Yes
 Strength: Strong
-How It Works
-Criteria Evaluation:
 
+#How It Works
+Criteria Evaluation:
 The script checks the password against five criteria:
 Length: The password must be at least 8 characters long.
 Uppercase: The password must contain at least one uppercase letter.
