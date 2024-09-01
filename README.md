@@ -42,21 +42,29 @@ Digit Criteria Met: Yes
 Special Character Criteria Met: Yes
 Strength: Strong
 
-#How It Works
 Criteria Evaluation:
 The script checks the password against five criteria:
 
 Length: The password must be at least 8 characters long.
 
 Uppercase: The password must contain at least one uppercase letter.
+
 Lowercase: The password must contain at least one lowercase letter.
+
 Digit: The password must contain at least one numeric digit.
+
 Special Character: The password must contain at least one special character.
+
 Strength Calculation:
 
 The script sums the number of criteria met by the password.
+
 Based on the score, it rates the password's strength:
+
 5/5: Strong
+
 4/5: Moderate
+
 3/5: Weak
+
 0-2/5: Very Weak
