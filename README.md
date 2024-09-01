@@ -1,4 +1,3 @@
-# prodigy_cs_03
 # Password Strength Checker
 This repository contains a Python script that evaluates the strength of a password based on multiple criteria. The script provides feedback on whether the password meets these criteria and rates its overall strength.
 
