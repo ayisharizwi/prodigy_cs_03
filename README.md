@@ -1,7 +1,3 @@
-Here's a sample README file for your password strength checker code:
-
----
-
 # Password Strength Checker
 
 This repository contains a Python script that evaluates the strength of a password based on multiple criteria. The script provides feedback on whether the password meets these criteria and rates its overall strength.
@@ -24,14 +20,14 @@ This script requires Python 3 and the `re` (regular expressions) module, which i
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/password-strength-checker.git
-   cd password-strength-checker
+   git clone https://github.com/ayisharizwi/prodigy_cs_03.git
+   cd prodigy_cs_03
    ```
 
 2. **Run the Script:**
 
    ```bash
-   python password_strength_checker.py
+   python Passwordcomplexitychecker.py
    ```
 
 3. **Input Parameters:**
